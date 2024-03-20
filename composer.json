@@ -1,0 +1,20 @@
+{
+    "name": "luiz-carlos/php-nfse",
+    "description": "Gerador NFSe Udia",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Luiz Carlos Ferreira",
+            "email": "luiz.tecnare@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "NFSePHP\\NFSe\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">= 7.4"
+    }
+}
